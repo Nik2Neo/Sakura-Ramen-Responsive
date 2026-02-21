@@ -1,0 +1,310 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+}
+ 
+  .aot {
+  display: block;
+  width: 100%;
+  height: 100svh;
+  height: 100vh;
+  object-fit: cover;
+}
+ 
+header {
+  display: flex;
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 0;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 112px;
+}
+
+ .logo {
+  display: flex;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  padding-left: 10%;  
+}
+
+  .menu {
+  display: flex;  
+  
+  width: 100%;
+  padding-right: 10%;
+  justify-content: flex-end;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  gap: 40px;
+  align-items: center;
+}
+
+   .menu a {
+  color: white;
+  text-decoration: none;    
+}
+
+  .menu a:hover {
+    font-weight: bold;
+    text-decoration: underline; 
+  } 
+
+   .tel-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: #9F0908;
+}
+
+  .telephone {
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+}
+
+  h1 {
+  font-size: 96px;
+  font-family: "Raleway", sans-serif; 
+  font-weight: bold;
+  margin: 0px;
+}
+
+  .main-container {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 400;
+  font-size: 24px;  
+
+  pointer-events: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #9F0908;
+}
+
+ .headline-order {
+  margin-top: 120px;
+  margin-bottom: 64px;
+}
+
+
+.how-to-order-content{
+  display: flex;
+  width: 80%;
+  justify-self: center;
+  justify-content: space-between;
+
+  color: black;
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+
+  margin-bottom: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.how-to-order-img {
+  height: 128px;
+}
+
+ p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+ }
+
+.our-menu {
+
+  width: 100%;
+  margin-bottom: 120px;
+  margin-top: 120px; 
+
+  background-image: url(img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;         
+}
+
+.our-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  width: 80%;
+}
+
+.headline-menu {
+  padding-top: 120px;
+  padding-bottom: 64px; 
+  margin: 0px;     
+}
+
+.dishes {
+  width: 352px;
+  height: 352px;  
+}
+
+h3 {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  height: 56px;  
+  text-align: start;
+
+  margin: 0;
+}
+
+.dish-headline {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  height: 56px;  
+  text-align: start;
+}
+
+.dish-compounds {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #675E54;
+}
+
+.dish-one {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+
+  margin-bottom: 56px;
+  gap: 80px;
+}
+
+.dish-two {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+
+  margin-bottom: 56px;
+  gap: 80px;
+}
+
+.dish-three {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+
+  margin-bottom: 120px;
+  gap: 80px;
+}
+
+th {
+  padding: 16px 0;  
+}
+
+td {
+  padding: 8px 0px;
+}
+
+td:first-child {
+  width: 350px;
+}
+
+.find-us {
+    
+  width: 100%;
+  margin-top: 120px;
+}
+
+.find-us-headline {  
+  margin: 0px;    
+  padding-bottom: 8px;
+}
+
+
+
+.find-us-adress {
+  display: flex;
+  justify-content: center;
+  
+  font-family: "Raleway", sans-serif; 
+  font-weight: 400;
+  font-size: 24px;
+
+  margin-bottom: 64px;
+}
+
+.find-us-adress-img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+
+  padding-right: 5px;
+}
+
+.google-maps {
+  width: 100%;
+  height: 800px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 144px;
+
+  background-color: #0A141E;
+}
+
+.footer-content {
+  display: flex;
+  
+  width: 80%;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  height: 44px;  
+}
+
+.footer-socials {
+  display: flex;  
+  gap: 10px;
+}
+
+.footer-socials img {
+  height: 40px;
+  width: 40px;
+}
