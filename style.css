@@ -315,4 +315,15 @@ footer {
   .hide-tablet {
     display: none;
   }
+
+  .how-to-order-content-tablet {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .how-to-order-img {
+  width: 112px;
+  height: auto;
+  }
 }
