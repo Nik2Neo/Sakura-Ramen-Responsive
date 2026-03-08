@@ -113,6 +113,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 80px;
   font-weight: 700;
+  text-align: center;
   color: #9F0908;
 }
 
@@ -416,9 +417,7 @@ footer {
   padding-bottom: 16px;  
   }
 
-  td:first-child {
-  width: 400px;
-}
+
 
   td {
   padding-top: 0px;
@@ -532,6 +531,11 @@ footer {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 72px;
+  }
+
+  .dishes {
+    height: 343px;
+    width: 343px;
   }
 
   .find-us {
