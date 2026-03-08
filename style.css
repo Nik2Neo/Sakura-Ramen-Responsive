@@ -311,10 +311,18 @@ footer {
   width: 40px;
 }
 
+.hide-except-phone {
+  display: none;
+}
+
 @media(max-width: 1280px){
   .hide-tablet {
     display: none;
   }
+
+  .hide-except-phone {
+  display: none;
+}
 
   .how-to-order-content-tablet {
     width: 100%;
@@ -430,5 +438,146 @@ footer {
   .find-us-adress {
     font-size: 20px;
     margin-bottom: 48px;
+  }
+}
+
+@media(max-width: 767px) {
+
+  header {
+    height: 64px;
+  }
+
+  .logo {
+    padding-left: 24px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .menu {
+    padding-right: 24px;
+    font-size: 16px;
+  }
+
+  .tel-button {
+    padding: 3px 6px;
+    gap: 2px;
+  }
+
+  .telephone {
+    height: 20px;
+    width: 20px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .sub-headline {
+    font-size: 16px;
+  }
+
+  .headline-order {
+    margin-top: 72px;
+  }
+
+  .how-to-order-content {
+    flex-direction: column;
+  }
+
+  .padding-left-tablet {
+    padding-left: 0px;
+  }
+
+  .padding-right-tablet {
+    padding-right: 0px;
+  }
+
+  .how-to-order-content {
+    gap: 32px;
+    margin-bottom: 72px;
+  }
+
+  .gap-how-to-order-dishes {
+    gap: 8px;
+  }
+
+  .headline-menu {
+    margin-top: 72px;
+    padding-top: 72px;
+    padding-bottom: 40px;
+  }
+
+  .our-menu {
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+
+  .dish-one {
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+  }
+
+  .dish-two {
+  flex-direction: column-reverse;
+  gap: 16px;
+  margin-bottom: 32px;
+  }
+
+  .dish-three {
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 72px;
+  }
+
+  .find-us {
+    margin-top: 72px;
+  }
+
+  .find-us-adress {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .find-us-adress-img {
+    height: 20px;
+    width: 20px;
+    padding-right: 2px
+  }
+
+  .hide-phone {
+    display: none;
+  }
+
+  .hide-except-phone {
+  display: block;
+  }
+
+  footer {
+    height: 86px;
+  }
+
+  .footer-logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-content {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .footer-socials {
+    gap: 16px;
+  }
+
+  .footer-socials-phone {
+    height: 32px;
+    width: 32px;
   }
 }
