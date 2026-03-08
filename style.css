@@ -371,7 +371,6 @@ footer {
   padding-top: 96px;
   padding-bottom: 48px;
   margin-top: 96px;
-  margin-bottom: 48px;
   }
 
   .our-menu {
@@ -422,5 +421,14 @@ footer {
     width: 90%;
     left: 40px;
     right: 40px;
+  }
+
+  .find-us {
+    margin-top: 96px;
+  }
+
+  .find-us-adress {
+    font-size: 20px;
+    margin-bottom: 48px;
   }
 }
