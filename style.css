@@ -359,5 +359,23 @@ footer {
 
   .how-to-order-content {
     font-size: 32px;
+    margin-bottom: 96px;
   }
+
+  .headline-order {
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.headline-menu{
+  padding-top: 96px;
+  padding-bottom: 48px;
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.our-menu {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
 }
