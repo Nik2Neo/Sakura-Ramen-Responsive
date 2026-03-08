@@ -184,7 +184,7 @@ h3 {
   font-family: "Economica", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  height: 56px;  
+   
   text-align: start;
 
   margin: 0;
@@ -367,15 +367,60 @@ footer {
   margin-bottom: 48px;
 }
 
-.headline-menu{
+  .headline-menu{
   padding-top: 96px;
   padding-bottom: 48px;
   margin-top: 96px;
   margin-bottom: 48px;
-}
+  }
 
-.our-menu {
+  .our-menu {
   margin-top: 96px;
   margin-bottom: 96px;
+  }
+
+  h3 {
+  font-size: 32px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  }
+
+  .dish-compounds {
+    font-size: 24px;
+  }
+
+  .dish-one {
+  gap: 24px;
+  margin-bottom: 32px;
+  }
+
+  .dish-two {
+  gap: 24px;
+  margin-bottom: 32px;
+  }
+
+  .dish-three {
+  gap: 24px;
+  margin-bottom: 96px;
+  }
+
+ th {  
+  padding-top: 0px;
+  padding-bottom: 16px;  
+  }
+
+  td:first-child {
+  width: 400px;
 }
+
+  td {
+  padding-top: 0px;
+  padding-bottom: 8px;
+  }
+
+  .our-menu-content {
+    width: 90%;
+    left: 40px;
+    right: 40px;
+  }
 }
