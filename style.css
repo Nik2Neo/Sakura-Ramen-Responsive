@@ -326,4 +326,12 @@ footer {
   width: 112px;
   height: auto;
   }
+
+  .logo {
+    padding-left: 24px;
+  }
+
+  .menu {
+    padding-right: 24px;
+  }
 }
