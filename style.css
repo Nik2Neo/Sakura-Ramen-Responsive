@@ -333,5 +333,16 @@ footer {
 
   .menu {
     padding-right: 24px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  .sub-headline {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
   }
 }
