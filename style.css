@@ -242,7 +242,7 @@ td {
 }
 
 td:first-child {
-  width: 350px;
+  width: 300px;
 }
 
 .find-us {
@@ -485,6 +485,7 @@ footer {
 
   .how-to-order-content {
     flex-direction: column;
+    
   }
 
   .padding-left-tablet {
@@ -515,28 +516,41 @@ footer {
     margin-bottom: 72px;
   }
 
+   .our-menu-content {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;    
+  }
+
   .dish-one {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 32px;
+  align-self: center;
   }
 
   .dish-two {
   flex-direction: column-reverse;
   gap: 16px;
   margin-bottom: 32px;
+  align-self: center;
   }
 
   .dish-three {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 72px;
+  align-self: center;
   }
 
   .dishes {
-    height: 343px;
-    width: 343px;
+    height: 300px;
+    width: 300px;
   }
+
+  td:first-child {
+  width: 200px;
+}
 
   .find-us {
     margin-top: 72px;
