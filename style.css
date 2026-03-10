@@ -542,8 +542,9 @@ footer {
   }
 
   .dishes {
-    height: 280px;
-    width: 280px;
+    max-width: 352px;
+    width: 100%;
+    height: auto;    
   }
 
   td:first-child {
